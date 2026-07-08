@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LCM और HCF की जानकारी</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: auto; padding: 20px; background-color: #f4f4f9; }
+        h1, h2 { color: #2c3e50; border-bottom: 2px solid #3498db; padding-bottom: 10px; }
+        .box { background: #fff; padding: 15px; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); margin-bottom: 20px; }
+        code { background: #e8e8e8; padding: 2px 5px; border-radius: 4px; }
+    </style>
+</head>
+<body>
+    <h1>LCM एवं HCF: विस्तृत विवरण</h1>
+    
+    <div class="box">
+        <h2>1. HCF (महत्तम समापवर्तक)</h2>
+        <p>HCF वह सबसे बड़ी संख्या है जो दो या अधिक संख्याओं को विभाजित करती है।</p>
+        <p><strong>उदाहरण:</strong> 12 और 18 का HCF <code>6</code> है, क्योंकि 6 वह सबसे बड़ी संख्या है जो दोनों को काटती है।</p>
+    </div>
+
+    <div class="box">
+        <h2>2. LCM (लघुत्तम समापवर्त्य)</h2>
+        <p>LCM वह सबसे छोटी संख्या है जो दी गई सभी संख्याओं से पूरी तरह विभाजित हो जाती है।</p>
+        <p><strong>उदाहरण:</strong> 4 और 6 का LCM <code>12</code> है, क्योंकि 12 वह पहली संख्या है जो 4 और 6 दोनों के पहाड़े में आती है।</p>
+    </div>
+
+    <div class="box">
+        <h2>3. गणना की विधि (अभाज्य गुणनखंडन)</h2>
+        <p>संख्याओं को उनके अभाज्य भागों में तोड़कर LCM और HCF आसानी से निकाले जा सकते हैं। यह तकनीक 2,000 साल से भी पुरानी है।</p>
+    </div>
+
+    <footer style="font-size: 0.8em; text-align: center; margin-top: 50px;">
+        <p>स्रोत: गणितीय इतिहास और अंकगणित के सिद्धांत</p>
+    </footer>
+</body>
+</html>
+ <div class="example-box">
+        <strong>व्यावहारिक उदाहरण:</strong> यदि दो लाइटें क्रमशः हर 15 और 20 सेकंड में जलती हैं, तो वे एक साथ कब जलेंगी?<br>
+        • 15 और 20 का LCM = <code>60</code><br>
+        <strong>उत्तर: वे हर 60 सेकंड (1 मिनट) बाद एक साथ जलेंगी।</strong>
+    </div>
+
+    <h2>3. अभ्यास हेतु प्रश्न (Test Your Knowledge)</h2>
+
+    <div class="question-box">
+        <strong>प्रश्न 1:</strong> अभाज्य गुणनखंडन (Prime Factorization) विधि का उपयोग करके 12 और 18 का LCM और HCF ज्ञात करें। [अभाज्य गुणनखंडन विधि 2,000 साल से भी पुरानी है - 552]
+    </div>
+
+    <div class="question-box">
+        <strong>प्रश्न 2:</strong> वह सबसे बड़ी संख्या ज्ञात करें जो 48 और 72 दोनों को पूरी तरह काट दे।
+    </div>
+
+    <div class="question-box">
+        <strong>प्रश्न 3:</strong> तीन घंटियाँ क्रमशः 8, 12 और 15 मिनट के अंतराल पर बजती हैं। यदि वे एक साथ बजना शुरू करें, तो कितने समय बाद वे फिर एक साथ बजेंगी? (संकेत: LCM निकालें)
+    </div>
+
+    <div class="question-box">
+        <strong>प्रश्न 4:</strong> सिद्ध करें कि यदि दो संख्याएँ 5 और 7 हैं, तो <code>HCF(5, 7) × LCM(5, 7) = 5 × 7</code>। क्या यह नियम सभी संख्याओं पर लागू होता है?
+    </div>
+
+    <div class="footer">
+        स्रोत: गणितीय दर्शन, प्राचीन भारतीय गणित (आर्यभटीय, लीलावती) एवं आधुनिक संख्या सिद्धांत [6-8]
+    </div>
+</div>
+
+</body>
+</html>
